@@ -1,0 +1,38 @@
+div.remove-padding  {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.border-2 {
+	border-width: 2px !important; 
+}
+
+// Remove static position from dropdown menu
+.navbar-nav .dropdown-menu {
+	position:absolute;
+}
+
+
+.dropdown-menu {
+	position:absolute !important;
+}
+
+a.btn {
+	padding: .25rem .55rem;
+}
+
+img.img-thumbnail {
+	width: 200px;
+	height: 200px;
+	border: none;
+	background-color: transparent;
+}
+
+.remove-margins {
+	margin: 0;
+}
+
+.form-control {
+	width: auto;
+	display: inline-block;
+}

@@ -1,0 +1,24 @@
+textarea.form-control{
+	width:300px;
+	height:115px;
+}
+
+// Remove static position from dropdown menu
+.navbar-nav .dropdown-menu {
+	position:absolute;
+}
+
+.dropdown-menu {
+	position:absolute !important;
+}
+
+
+a.btn {
+	padding: .25rem .55rem;
+}
+
+.form-control,.form-control-file {
+	width: 200px;
+	display: inline-block;
+}
+

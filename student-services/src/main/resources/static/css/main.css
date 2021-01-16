@@ -1,0 +1,98 @@
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    user-select: none;
+}
+
+// Remove static position from dropdown menu
+.navbar-nav .dropdown-menu {
+	position:absolute;
+}
+
+.post-preview {
+	padding-bottom: 15px;
+}
+
+.dropdown-menu {
+	position:absolute !important;
+}
+
+.carousel-inner,.carousel-item{
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-caption {
+	background: rgba(0,0,0,0.7);
+}
+
+.carousel-inner img{
+    width 100%;
+    hegith: 100%;
+}
+
+.form-control {
+	display: inline-block;
+	width: auto;
+}
+button.btn {
+	padding: .30rem .65rem;
+}
+
+a.btn {
+	padding: .25rem .55rem;
+}
+
+/* testing design of article */
+.post-preview>a:focus, .post-preview>a:hover {
+	text-decoration: none;
+    color: #0085a1;
+}
+
+
+
+@media only screen and (min-width: 768px)
+.post-preview>a>.post-title {
+    font-size: 36px;
+}
+
+.post-preview>a>.post-title {
+	font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.post-preview>a {
+    color: #212529;
+    transition: all .2s;
+}
+
+h2.post-title {
+    font-weight: 800;
+}
+
+h3 {
+	    font-size: 1.75rem;
+}
+
+.post-subtitle {
+	    font-size:18px;
+}
+
+.post-preview>a>.post-subtitle {
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+.post-preview>.post-meta {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+    color: #868e96;
+}
+
+
+
+
+
